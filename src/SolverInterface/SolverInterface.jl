@@ -82,11 +82,13 @@ include("LinearQuadratic.jl")
 include("callbacks.jl")
 include("Nonlinear.jl")
 include("Conic.jl")
+include("SD.jl")
 
 # Solver conversion routines
 include("conic_to_lpqp.jl")
 include("lpqp_to_conic.jl")
 include("nonlinear_to_lpqp.jl")
+include("sd_to_conic.jl")
 
 
 end
